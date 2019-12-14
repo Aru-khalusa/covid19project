@@ -1,0 +1,18 @@
+label {
+    padding-left: 10px;
+}
+
+input .col-md-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 7px 0px 7px 10px;
+}
+
+#submit-btn {
+    color: #b45918;
+    background-color: #e0e0e0;
+}
+
+
+
+

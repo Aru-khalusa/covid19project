@@ -1,0 +1,20 @@
+Website should be able to do the following:
+1. Sign you in as an Admin
+2. Sign you up as an Admin
+3. Use Access code to register Applicant
+
+Home Page
+- Login form for Admin
+- Sign Up button takes you to Admin Sign Up and also to Applicant Registration (gives two buttons in return one for each respectively)
+- Navigation bar containing contents like HOME, ABOUT, HELP and Picture to refer to Login
+
+HOME
+-Takes you to the sign up page
+
+ABOUT
+-Contains content of the GID Biometric System
+
+HELP
+-Contains contents on how to use the system incase you ma get stuck. Also contains the matter of the access code being reusable more than once as far as the is no submission of form
+
+ 
