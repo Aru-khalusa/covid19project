@@ -15,6 +15,13 @@ ABOUT
 -Contains content of the GID Biometric System
 
 HELP
--Contains contents on how to use the system incase you ma get stuck. Also contains the matter of the access code being reusable more than once as far as the is no submission of form
+-Contains contents on how to use the system incase you may get stuck. Also contains the matter of the access code being reusable more than once as far as the is no submission of form
+
+
+
+DETAILS OF APPLICANT
+-First Name, Middle Name, Maiden Name, Last Name, Date of Birth, Name of Mother, Name of Father, Place of Birth, Region/Municipality of Birth, Sex, Birth Certificate picture
+-Occupation, Residence, Name of Alkalo/Chief of Residence, Name of Guarantor, 
+-Education Level, Hobbies, Email Address, Phone Numbers, Contact Details of References(Guarantor/Chief)
 
  

@@ -8,11 +8,21 @@ input .col-md-6 {
     margin: 7px 0px 7px 10px;
 }
 
+label a {
+    color: #808080;
+}
+
 #submit-btn {
     color: #b45918;
     background-color: #e0e0e0;
+    border: 2px solid #808080;
 }
 
+#submit-btn:hover, #submit-btn:focus {
+    transform: scale(1.04);
+    border-radius: 4px;
+    border: 1.5px solid #000000;
+}
 
 
 

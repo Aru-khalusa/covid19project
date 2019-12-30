@@ -26,10 +26,10 @@
                         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Register</a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="admin.htm">Admin</a></li>
-                                <li><a class="dropdown-item" href="applicant.php">Applicant</a></li>
+                                <li><a class="dropdown-item" href="applicant.htm">Applicant</a></li>
                             </ul>
                         </li>
-                        <li class="nav-item"><a class="nav-link" href="news.htm">News</a></li>
+                        <li class="nav-item"><a class="nav-link" href="news.htm">Help</a></li>
                     </ul>
                 </div>
                 <!--./navbar collapse-->
@@ -37,7 +37,7 @@
         </div>
     </header>
             <!--header ends here-->
-
+<hr><br>
     <!--form input comes here-->
 
     <div class="container mt-2">
@@ -45,19 +45,54 @@
             <div class="col-md-6 offset-md-6">
                  <!--Personal details-->
                 <div class="card card-body">
-                    
+                    <form action="" method="post">
+                        <!--Access code here-->
+                        <label for="access-code" class="col-sm-12 col-md-4" style="color: #b45918; font-weight: bold; font-size: larger;">ACCESS CODE</label>
+                        <input type="text" class="col-sm-12 col-md-7" name="access-code" id="access-code" placeholder="Enter your Access PIN here" required style="border: 2px solid #b45918; padding: 8px; margin: 7px 0px 7px 10px;"> <br><br><br>
+                        <!--./access code-->
+                        <!--Names-->
+                        <label for="first-name" class="col-sm-12 col-md-4" style="padding-left: 20px;">First Name </label>
+                            <input type="text" class="col-sm-12 col-md-7" name="first-name" id="first-name" placeholder="First Name" required style="margin: 5px 0px 20px 10px">
+                        <label for="middle-name" class="col-sm-12 col-md-4" style="padding-left: 20px;">Middle Name</label>
+                            <input type="text" class="col-sm-12 col-md-7" name="middle-name" id="middle-name" style="margin: 5px 0px 20px 10px" placeholder="Middle Name (if any)">
+                        <label for="maiden-name" class="col-sm-12 col-md-4" style="padding-left: 20px;">Maiden Name </label>
+                            <input type="text" class="col-sm-12 col-md-7" name="maiden-name" id="maiden-name" placeholder="Maiden Name (if any)" style="margin: 5px 0px 20px 10px">
+                        <label for="last-name" class="col-sm-12 col-md-4" style="padding-left: 20px;">Last Name</label>
+                            <input type="text" class="col-sm-12 col-md-7" name="last-name" id="last-name" placeholder="Last Name" required style="margin: 5px 0px 20px 10px">
+                        <label for="date-of-birth" class="col-sm-12 col-md-4" style="padding-left: 20px;">Date of Birth</label>
+                            <input type="date" class="col-sm-12 col-md-7" name="date-of-birth" id="date-of-birth" required style="margin: 5px 0px 20px 10px;">
+                        <label for="name-of-father" class="col-sm-12 col-md-4" style="padding-left: 20px;">Name of Father</label>
+                            <input type="text" class="col-sm-12 col-md-7" name="name-of-father" id="name-of-father" placeholder="Name of Father" required style="margin: 5px 0px 20px 10px">
+                        <label for="name-of-mother" class="col-sm-12 col-md-4" style="padding-left: 20px;">Name of Mother</label>
+                            <input type="text" class="col-sm-12 col-md-7" name="name-of-mother" id="name-of-mother" placeholder="Name of Mother" required style="margin: 5px 0px 20px 10px">
+                        <label for="place-of-birth" class="col-sm-12 col-md-4" style="padding-left: 20px;">Place of Birth</label>
+                            <input type="text" class="col-sm-12 col-md-7" name="place-of-birth" id="place-of-birth" placeholder="Enter place of Birth" style="margin: 5px 0px 20px 10px">
+                        <label for="region-of-birth" class="col-sm-12 col-md-4" style="padding-left: 20px;">Region of Birth</label>
+                            <input type="text" class="col-sm-12 col-md-7" name="region-of-birth" id="region-of-birth" placeholder="Enter region of birth" style="margin: 5px 0px 20px 10px">
+                        <label for="sex" class="col-sm-12 col-md-4" style="padding-left: 20px;">Sex</label>
+                            <input type="radio" name="male" id="male" value="male" style="margin: 5px 0px 20px 10px"> Male
+                            <input type="radio" name="female" id="female" value="female" style="margin: 5px 0px 20px 10px"> Female 
+                        <div class="row">
+                            <label for="file" class="col-sm-12 col-md-5" style="padding-left: 20px;">Enter Copy of Birth Certificate Here: </label> 
+                            <input type="file" name="birth-certificate" id="birth-certificate" style="margin: 5px 0px 20px 15px;">
+                        </div>
+                    </form>
                 </div>
                  <!--/ends here-->   
 
                 <!--National Details-->
                 <div class="card card-body">
+                    <form action="" method="post">
 
+                    </form>
                 </div>
                 <!--/ends here-->
 
                 <!--Other details-->
                 <div class="card card-body">
+                    <form action="" method="post">
 
+                    </form>
                 </div>
                 <!--/ends here-->
                 
@@ -71,9 +106,9 @@
     <!--footer-->
     <div class="container-fluid">
         <footer class="row">
-            <div class="col-md-3 clearfix visible-sm"></div>
+            <!-- <div class="col-md-3 clearfix visible-sm"></div> -->
             <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12">Copyright &copy; Arfang Bah 2019 Junior Project</p>
-            <div class="col-md-3 clearfix visible-sm"></div>
+            <!-- <div class="col-md-3 clearfix visible-sm"></div> -->
         </footer>
     </div>
         <!--footer ends-->
